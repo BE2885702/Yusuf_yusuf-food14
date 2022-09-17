@@ -12,5 +12,6 @@ END IF
 Press button "food confirmation"
 READ AND WRITE "Enter shipping address" with string
 Press button "make payment"
+READ AND WRITE "proof of payment" with string
 Finish
     
