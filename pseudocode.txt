@@ -16,7 +16,13 @@ ELSE
     Press button "shopping cart menu"
 END IF
 Pess button "food checklist"
-READ AND WRITE "Enter shipping address" with string
+READ AND WRITE "Choose payment method" with string
+IF WHILE "Choose payment method" not enough balance
+          PRINT "Insufficient balance"
+          DO "READ AND WRITE "Choose payment method" with string"
+ELSE
+    READ AND WRITE "Enter shipping address" with string
+END IF
 Press button "make payment"
 READ AND WRITE "proof of payment" with string
 Finish
