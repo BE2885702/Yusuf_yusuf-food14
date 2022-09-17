@@ -24,6 +24,10 @@ ELSE
     READ AND WRITE "Enter shipping address" with string
 END IF
 Press button "make payment"
-READ AND WRITE "proof of payment" with string
+IF Give a rating
+    Press button "Give a star 1-5"
+ELSE
+    READ AND WRITE "proof of payment" with string
+END IF
 Finish
     
